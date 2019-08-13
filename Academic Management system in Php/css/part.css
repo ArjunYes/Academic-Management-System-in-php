@@ -1,0 +1,152 @@
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  font-family: 'Abel', sans-serif;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff3333;
+  color: white;
+}
+
+
+.container{
+         width: 960px;
+         height: 170px;
+         margin-left: 500px;
+         position: relative;
+         margin:auto;
+         
+         
+     }
+
+.container2{
+
+         width: 960px;
+         height: 70px;
+         background: blue;
+         margin-left: 500px;
+         position: relative;
+         margin:auto;
+         
+         
+     }
+     
+ body{
+        
+        width: 100%;
+        height: 100%;
+        background: url('11.jpg') no-repeat 50% 10%;  
+     }
+     
+     .innerbox1{
+    
+      width: 200px;
+      height: 200px;
+      position: relative;
+      float:left;
+      margin-left:30px;
+     padding-right:20px;
+     margin-top:75px;
+     margin-right:20px;
+      border-radius: 10px;
+      background: #f5f5dc; 
+      opacity: 0.5;
+      
+    }
+     
+
+.header3{
+    position: relative;
+    font-family: 'Abel', sans-serif;
+    color: blue;
+    font-size: 20px;
+    
+    margin-left:40px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6666;
+     border-radius: 8px;
+    
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    
+    display: block;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: blue;
+}
+
+.a1{
+   background-color: #34f315;
+   color: #FFFFFF;
+  color: white;
+  margin-left: 420px;
+}
+
+.btn {
+    position: absolute;
+    background: #34f315;
+     margin-top: 15px;
+    margin-left: 810px;
+    width: 150px;
+    font-weight: bold;
+    border: 0;
+    font-family: 'Abel', sans-serif;
+    padding: 12px;
+    color: #FFFFFF;
+    font-size: 18px;
+
+
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.logged_in{
+  font-weight: bold;
+  margin-left: 600px;
+  font-family: 'Abel', sans-serif;
+  color:white;
+  font-size: 18px;
+}
+
